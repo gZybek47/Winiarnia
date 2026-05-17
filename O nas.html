@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O nas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-md nawigacja-glowna body-colors me-2">
+    <div class="container-fluid justify-content-end">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav nav justify-content-end nav-underline text-dark-emphasis">
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="Untitled-2.html">Główna</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark active" href="O nas.html">O nas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="geneza.html">Geneza</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="Kontakt.html">Kontakt</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<header class="naglowek3">
+    <section class="kontener">
+        <article class="tresc">
+            <h1 class="fs-1 fw-bold text-light">Trzech entuzjastów winiarstwa</h1>
+            <p class="text-wrap" style="width: 67rem;"></p>
+        </article>
+    </section>
+</header>
+
+<main>
+    <section id="o-nas" class="py-5">
+        <div class="container py-4">
+            <div class="row g-4 align-items-stretch">
+                
+                <div class="col-md-5 col-lg-4">
+                    <div id="galeriaWinnicy" class="carousel slide h-100 shadow-sm" data-bs-ride="carousel" style="border-radius: 8px; overflow: hidden;">
+                        
+                        <div class="carousel-indicators mb-2">
+                            <button type="button" data-bs-target="#galeriaWinnicy" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#galeriaWinnicy" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#galeriaWinnicy" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        
+                        <div class="carousel-inner h-100">
+                            <div class="carousel-item active h-100">
+                                <img src="img/Michał.png" class="d-block w-100 h-100 dopasuj-zdjecie" alt="Michal">
+                            </div>
+                            <div class="carousel-item h-100">
+                                <img src="img/Wiktor.png" class="d-block w-100 h-100 dopasuj-zdjecie" alt="Wiktor">
+                            </div>
+                            <div class="carousel-item h-100">
+                                <img src="img/Patryk.png" class="d-block w-100 h-100 dopasuj-zdjecie" alt="Patryk">
+                            </div>
+                        </div>
+                        
+                        <button class="carousel-control-prev" type="button" data-bs-target="#galeriaWinnicy" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Poprzedni</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#galeriaWinnicy" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Następny</span>
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="col-md-7 col-lg-8">
+                    <div class="card h-100 border-0 shadow-sm p-4 p-md-5" style="border-radius: 8px;">
+                        <div class="card-body d-flex flex-column p-0">
+                            
+                            <h2 class="tekst-wino fw-bold mb-4">Studenci za dnia, koneserzy trunków po godzinach</h2>
+                            <p class="text-muted mt-3 fs-5" > Grupa przyjaciół połączona pasją. Dzięki czystej determinacji i oddaniu założyliśmy własną hodowlę winorośli, wznieśliśmy się na sam szczyt produkcji wina, zbudowaliśmy globalnie rozpoznawalną markę, zrewolucjonizowaliśmy przemysł napojów alkoholowych. Nasze wino to owoc nie tylko ciężkiej pracy, ale też miłości do rzemiosła. Nasze imperium winoholików zaczęło się od mocnego buntu przeciwko przeciętnym trunkom z dolnej półki, które przez studencki budżet byliśmy zmuszeni wybierać. Postanowiliśmy, że nasz gust jest znacznie droższy niż nasz budżet, więc nie mamy wyjścia, musimy stworzyć własne wino. I tak studencka fantazja i marzenia zamieniła się w markę klasy premium.</p>
+                            
+                            <div class="mt-auto text-end mb-0 pt-4">
+                                <blockquote class="blockquote">
+                                    <p class="fst-italic fs-5 tekst-wino">"Człowiek nie wielbłąd, pić musi"</p>
+                                </blockquote>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="d-block text-center py-3 md-4">
+    <img src="img/logowino.png" alt="Logo Winiarni" class="footer-logo">
+    <p >Kontakt: kontakt@Winoholicy.pl</p>
+    <p>Telefon: +48 123 456 789</p>
+    <p>&copy; 2026 Winoholicy</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

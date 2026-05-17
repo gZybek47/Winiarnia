@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Winoholicy</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-md nawigacja-glowna body-colors me-2">
+    <div class="container-fluid justify-content-end">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav nav justify-content-end nav-underline text-dark-emphasis">
+                <li class="nav-item">
+                    <a class="nav-link active text-dark" href="Untitled-2.html">Główna</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="O nas.html">O nas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="geneza.html">Geneza</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="Kontakt.html">Kontakt</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<header class="naglowek1">
+    <section class="kontener">
+        <article class="tresc">
+            <h1 class="fs-1 fw-bold text-light">Zanurz się w smaku</h1>
+            <p class="text-wrap" style="width: 67rem;">
+                Wino to jedyny trunek, który potrafi zamknąć w butelce energię słońca, charakter ziemi i cierpliwość płynącego czasu. 
+                Każdy łyk to opowieść o minionym lecie, starannie pielęgnowanych krzewach i pasji, która zmienia owoce w czystą poezję zmysłów.
+            </p>
+            <nav class="nawigacja-akcji py-5">
+                <a href="#wina" class=" p-2 bg-danger text-light border border-danger rounded border-3 text-decoration-none">Zobacz naszą ofertę</a>
+            </nav>
+        </article>
+    </section>
+</header>
+    
+<main>
+    <section id="wina" class="py-5 ">
+        <div class="container py-4">
+            <div class="text-center mb-5 d-flex align-items-center">
+                <div class="flex-grow-1 border-bottom border-2 border-secondary opacity-30"></div>
+                <h2 class="tekst-wino fw-bold mx-4 mb-0">Nasze Wina</h2>
+                <div class="flex-grow-1 border-bottom border-2 border-secondary opacity-30"></div>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 karta-wina border-0 shadow-sm">
+                        <img src="https://www.wina-bachus.pl/5544-large_default/ventisquero-cabernet-sauvignon-reserva.jpg" class="card-img-top mt-4" alt="Wino 1">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fw-bold">Cabernet Sauvignon</h5>
+                            <p class="card-text text-muted">Król czerwonych szczepów, charakteryzujący się głęboką, niemal nieprzeniknioną barwą i potężną strukturą.</p>
+                        </div>
+                        <div class="card-footer bg-white border-0 text-center pb-4">
+                            <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modalCabernet">Więcej informacji</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="card h-100 karta-wina border-0 shadow-sm">
+                        <img src="https://www.wina.pl/3159-medium_default/maison-louis-latour-chardonnay-d-ardeche-igp.jpg" class="card-img-top mt-4" alt="Wino 2">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fw-bold">Chardonnay</h5>
+                            <p class="card-text text-muted">Najbardziej wszechstronne z białych win, będące synonimem klasy i finezji.</p>
+                        </div>
+                        <div class="card-footer bg-white border-0 text-center pb-4">
+                           <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modalChardonnay">Więcej informacji</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="card h-100 karta-wina border-0 shadow-sm">
+                        <img src="https://malawinnica.pl/wp-content/uploads/2020/07/wino-czerwone-merlot-crnogorski-wytrawne-czarnogora.png" class="card-img-top mt-4" alt="Wino 3">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fw-bold">Merlot</h5>
+                            <p class="card-text text-muted">Ucieleśnienie jedwabistej gładkości i owocowej obfitości.</p>
+                        </div>
+                        <div class="card-footer bg-white border-0 text-center pb-4">
+                            <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#modalMerlot">Więcej informacji</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="d-block text-center py-3 md-4">
+    <img src="img/logowino.png" alt="Logo Winiarni" class="footer-logo">
+    <p >Kontakt: kontakt@Winoholicy.pl</p>
+    <p>Telefon: +48 123 456 789</p>
+    <p>&copy; 2026 Winoholicy</p>
+</footer>
+
+<div class="modal fade" id="modalCabernet">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header bg-light">
+        <h5 class="modal-title fw-bold">Cabernet Sauvignon - Wartości odżywcze</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <table class="table table-striped table-hover">
+          <tbody>
+            <tr><th>Kalorie (w 100ml)</th><td>82 kcal</td></tr>
+            <tr><th>Węglowodany</th><td>2.6 g</td></tr>
+            <tr><th>Cukry resztkowe</th><td>0.8 g</td></tr>
+            <tr><th>Białko</th><td>0.1 g</td></tr>
+            <tr><th>Zawartość alkoholu</th><td>13.5%</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modalChardonnay">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header bg-light">
+        <h5 class="modal-title fw-bold">Chardonnay - Wartości odżywcze</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <table class="table table-striped table-hover">
+          <tbody>
+            <tr><th>Kalorie (w 100ml)</th><td>80 kcal</td></tr>
+            <tr><th>Węglowodany</th><td>2.2 g</td></tr>
+            <tr><th>Cukry resztkowe</th><td>1.2 g</td></tr>
+            <tr><th>Białko</th><td>0.1 g</td></tr>
+            <tr><th>Zawartość alkoholu</th><td>12.5%</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modalMerlot">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header bg-light">
+        <h5 class="modal-title fw-bold">Merlot - Wartości odżywcze</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <table class="table table-striped table-hover">
+          <tbody>
+            <tr><th>Kalorie (w 100ml)</th><td>83 kcal</td></tr>
+            <tr><th>Węglowodany</th><td>2.5 g</td></tr>
+            <tr><th>Cukry resztkowe</th><td>0.9 g</td></tr>
+            <tr><th>Białko</th><td>0.1 g</td></tr>
+            <tr><th>Zawartość alkoholu</th><td>14.0%</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

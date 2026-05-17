@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontakt</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-md nawigacja-glowna body-colors me-2">
+    <div class="container-fluid justify-content-end">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav nav justify-content-end nav-underline text-dark-emphasis">
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="Untitled-2.html">Główna</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="O nas.html">O nas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="geneza.html">Geneza</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark active" href="Kontakt.html">Kontakt</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<header class="naglowek4">
+    <section class="kontener">
+        <article class="tresc">
+            <h1 class="fs-1 fw-bold text-light">Formularz kontaktowy</h1>
+            <p class="text-wrap" style="width: 67rem;"></p>
+        </article>
+    </section>
+</header>
+
+<main>
+  <section>
+    <form action="#" method="post">
+      <div class="container">
+        <div class="card h-100 karta-formularz border-0 shadow-sm">
+        <div class="row align-items-start">
+          <div class="mb-3 col-md-4">
+            <label for="imie" class="form-label">Imię i Nazwisko</label>
+            <input class="form-control" type="text" name="" id="imie" minlength="3" required placeholder="Podaj swoje imie...">
+          </div>
+          <div class="mb-3 col-md-4">
+            <label for="email" class="form-label">Adres email</label>
+            <input class="form-control" type="email" name="" id="email" required placeholder="Podaj swój adres E-Mail">
+          </div>
+          <div class="mb-3 col-md-4">
+            <label for="telefon" class="form-label">Numer Telefonu</label>
+            <input class="form-control" type="tel" name="" pattern="[0-9]{9}" id="telefon" placeholder="Podaj swój numer telefonu" required maxlength="9" title="Podaj dokładnie 9 cyfr bez spacji i myślników">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="mb-3 col-md-4">
+            <label for="temat" class="form-label">Temat kontaktu</label>
+            <select class="form-control" id="temat">
+              <option value="1">Współpraca</option>
+              <option value="2">Reklamacja</option>
+              <option value="3">Dostępność produktów</option>
+              <option value="4">Inne</option>
+            </select>
+          </div>
+          <div class="mb-3 col-md-8">
+            <label for="adres" class="form-label">Adres zamieszkania</label>
+            <input class="form-control" type="text" name="" id="adres" required placeholder=" Podaj twój adres zamieszkania">
+          </div>
+        </div>
+
+        <div class="row">
+          <label for="floatingTextarea" class="form-label">Treść wiadomości</label>
+          <div class="form-floating komentarz">
+            <textarea class="form-control komentarz" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+            <label for="floatingTextarea">Zostaw wiadomość</label>
+          </div>
+        </div>
+
+        <div class="row align-items-start mt-3">
+          <div class="col">
+            <input class="btn btn-outline-light btn-md" type="submit" value="Wyślij">
+            <input class="btn btn-outline-light btn-md" type="reset" value="Wyczyść">
+          </div>
+        </div>
+      </div>
+    </div>
+    </form>
+  </section>
+</main>
+
+<footer class="d-block text-center py-3 md-4">
+    <img src="img/logowino.png" alt="Logo Winiarni" class="footer-logo">
+    <p>Kontakt: kontakt@Winoholicy.pl</p>
+    <p>Telefon: +48 123 456 789</p>
+    <p>&copy; 2026 Winoholicy</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

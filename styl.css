@@ -1,0 +1,119 @@
+.naglowek1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/puzzle-castorland-4000-pieces-vineyard-village.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 150px;
+}
+.naglowek2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/winogrona.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 150px;
+}
+
+.naglowek3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/trio.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 150px;
+}
+.naglowek4{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/winiarnia 2.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 150px; 
+}
+
+body {
+    background-color: rgb(245, 228, 198);
+}
+#wina{
+    background-color: rgb(244, 210, 151) ;
+}
+
+.karta-wina:hover {
+    transform: scale(1.02);
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+.karta-formularz{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    background-color:  rgb(244, 210, 151);
+    padding: 20px;
+
+}
+
+#floatingTextarea {
+    height: 200px !important;
+}
+.tekst-wino {
+    color: #D1462F !important;
+}
+.tlo-wino {
+    background-color: #D1462F !important;
+}
+
+.przycisk-wino:hover {
+    background-color: #ae3d29;
+    color: white;
+}
+.footer-logo {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    border-radius: 50%;
+}
+.dopasuj {
+    object-fit: cover;
+    object-position: center;
+    padding: 10px;
+}
+
+.nawigacja-glowna {
+    background-color: rgb(245, 228, 198) !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    padding: 12px 0;
+}
+
+.nawigacja-glowna .nav-link {
+    color: #4a4a4a !important;
+    font-weight: 500;
+    font-size: 1.1rem;
+    padding: 8px 16px !important;
+    transition: color 0.2s ease-in-out;
+}
+
+.nawigacja-glowna .nav-link:hover,
+.nawigacja-glowna .nav-link.active {
+    color: #D1462F !important;
+}
+
+.navbar-toggler {
+    border: 2px solid #D1462F !important;
+    padding: 6px 10px;
+}
+
+.navbar-toggler-icon {
+    filter: invert(34%) sepia(85%) saturate(1914%) hue-rotate(345deg) brightness(86%) contrast(89%);
+}
+
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 0.25rem rgba(209, 70, 47, 0.25) !important;
+}
+
+@media (max-width: 767.98px) {
+    .nawigacja-glowna .navbar-nav {
+        padding-top: 15px;
+        text-align: center;
+    }
+    .nawigacja-glowna .nav-link {
+        border-bottom: 1px solid rgba(209, 70, 47, 0.1);
+    }
+}
