@@ -3,14 +3,14 @@
     background-size: cover;
     background-position: center;
     color: white;
-    padding: 150px;
+    padding: 150px 15px 15px;
 }
 .naglowek2 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/winogrona.png');
     background-size: cover;
     background-position: center;
     color: white;
-    padding: 150px;
+    padding: 150px 15px 15px;
 }
 
 .naglowek3 {
@@ -18,14 +18,14 @@
     background-size: cover;
     background-position: center;
     color: white;
-    padding: 150px;
+    padding: 150px 15px 15px;
 }
 .naglowek4{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/winiarnia_2.png');
     background-size: cover;
     background-position: center;
     color: white;
-    padding: 150px; 
+    padding: 150px 15px 15px; 
 }
 
 body {
